@@ -1,4 +1,4 @@
-package akademiakodu.weatherforecast;
+package akademiakodu.weatherforecast.Model;
 
 public class WeatherModel {
     private WeatherDetails main;
@@ -19,7 +19,7 @@ public class WeatherModel {
         }
 
         public void setTemp(double temp) {
-            this.temp = temp-273;
+            this.temp = temp - 273;
         }
     }
 }
