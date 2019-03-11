@@ -1,7 +1,6 @@
 package akademiakodu.weatherforecast.Model;
 
 import org.springframework.web.client.RestTemplate;
-
 import java.text.DecimalFormat;
 
 public class Weather {
